@@ -13,7 +13,7 @@ class PostmanEchoTest {
     void sholdReturnSendData() {
  given()
          .baseUri("https://postman-echo.com")
-         .body("some date")
+         .body("some data")
          .when()
          .post("/post")
          .then()
